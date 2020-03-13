@@ -1,0 +1,26 @@
+<html>
+<head><title>報名相關表單填寫</title></head>
+<body bgcolor="#EDEDED">
+姓名:<input type="text" name="id"><br/>
+生日:<input type="date" name="id"></br>
+身分證<input type="text" name="id"></br>
+學校<input type="text" name="id"></br>
+住址<input type="text"style="font-size:16px"></br>
+電子郵件:<input name="email" id="email" type="email" required /><br/>
+連絡電話:<input name="mobile" id="mobile" pattern=’\d{4}[-]\d{6}’ required /><br/>
+Female:<input type="radio" value="F" name="gender">
+Male:<input type="radio"  value="M" name="gender"><br/>
+飲食習慣:<select><option selected="true">請選擇</option><option>蛋奶素</option><option>全素</option><option>葷食</option><select/><br/>
+ <div>
+    <label for="range-number">票數：</label>0
+    <input type="range" min="0" max="10" id="range-number">10
+  </div>
+特殊疾病:<select><option selected="true">請選擇</option><option>氣喘</option><option>糖尿病</option><option>高血壓</option><option>癲癇</option><option>心臟病</option><option>無</option><select/><br/>
+血型:<select><option selected="true">請選擇</option><option>A</option><option>B</option><option>O</option><option>AB</option><select/><br/>
+    <label for="message">備註：</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="有什麼...需要注意的嗎?"></textarea>
+ </div><br/>
+<input type="reset" name="重整">
+<input type="submit" name="送出"><br/>
+<A Href="sign up.html">返回至主頁面!</A>
+</html>

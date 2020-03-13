@@ -1,0 +1,43 @@
+<html>
+<style type="text/css">
+	form{line-height:3em;}
+</style>
+<head>
+	<title>資管營調查表</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form>
+	<h1> <font color="blue">資管營調查表</font></h1>
+	請輸入名子:
+	<input type="text" name="name" required="" placeholder="必填"><br>
+	請輸入電子信箱:
+	<input type="email" name="email"required=""placeholder="必填"><br>
+	請輸入電話:
+	<input type="text" name="phone number"required=""placeholder="必填" pattern="[0-9]{9,10}"><br>
+	請選擇性別:
+	<input type="radio" name="gender" value="male" >男
+	<input type="radio" name="gender" value="female" >女<br>
+	從何得知此活動:
+	<input type="checkbox" name="how" value="np">報紙
+	<input type="checkbox" name="how" value="com">廣告
+	<input type="checkbox" name="how" value="sc">學校告知
+	<input type="checkbox" name="how" value="nb">剛好住附近
+	<input type="checkbox" name="how" value="ot">其他<br>
+	您會選擇就讀以下哪間學校:
+	<select name="">
+		<option value="">請選擇</option>
+		<option value="c1">高雄大學</option>
+		<option value="c2">大葉大學</option>
+		<option value="c3">明道大學</option>
+	</select><br>
+	為何參加此活動:<br>
+	<textarea cols="50" rows="6">
+		
+	</textarea><br>
+	<input type="submit" name="基本資料" value="送出">
+	<a href="https://im.nuk.edu.tw/" target="_blank" title="高大資管系網址">前往高大資管</a>
+
+</form>
+</body>	
+</html>

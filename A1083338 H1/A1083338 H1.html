@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>高大資管營報名</title>
+	<font size='5' face=DFKai-sb>高大資管營報名表</font>
+	<a href="https://www.facebook.com/nukimcamp">高大資管營粉專</a><br>
+</head>
+<body bgcolor="#F8F8FF">
+	<form>
+
+		姓名:<input type='text' name=name placeholder="請填寫全名"><br>
+		連絡電話:<input type='text' name=phone_number><br>
+		性別:<input type='radio'name='gender'value='M'>男
+			<input type='radio'name='gender'value='F'>女<br>
+		出生日期:<input type='date' name=birthday><br>
+		身分證字號:<input type='text' name=id><br>
+		就讀學校:<select name='city'>
+			<option value=tp>台北</option>
+			<option value=ntp>新北</option>
+			<option value=ty>桃園</option>
+			<option value=tc>台中</option>
+			<option value=tn>台南</option>
+			<option value=kh>高雄</option>
+			<option value=else>其他</option>
+		</select>
+		<input type='text'name=school placeholder="學校名稱"><br>
+		營服尺寸:<input type='radio'name='size'value='s'>S
+			<input type='radio'name='size'value='m'>M
+			<input type='radio'name='size'value='l'>L
+			<input type='radio'name='size'value='xl'>XL
+			<input type='radio'name='size'value='xxl'>XXL<br>
+			<input type="checkbox" name="vegetarian">吃素請打勾<br>
+			
+		<p>
+			你如何得知高大資管營?<br>
+			<input type="checkbox"name=1_1>網路媒體
+			<input type="checkbox"name=1_2>同學邀請
+			<input type="checkbox"name=1_3>師長介紹
+			<input type="checkbox"name=1_4>其他<input type='text'  placeholder="請填寫"><br><br>
+			為什麼想參加高大資管營?<br>
+			<input type="checkbox"name=2_1>湊人數
+			<input type="checkbox"name=2_2>喜歡高大校風
+			<input type="checkbox"name=2_3>對資訊管理有興趣
+			<input type="checkbox"name=2_4>喜歡玩電腦<br>
+			<input type="checkbox"name=2_5>其他<input type='text'  placeholder="請填寫"><br><br>
+			請簡短描述高雄大學和高雄科技大學的不同:<br>
+			<textarea cols="40" rows="5"></textarea><br>
+		</p>
+		<input type='submit' value='送出'>
+		<input type='reset' value="重新輸入"><br>
+	</form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<form action="result.php" method="POST">
+<title>高大資管營營隊報名網站.php</title>
+<body bgcolor="#FFFFF0">
+<center>
+<fieldset>
+<legend>
+<font face="Arial" color="#cc33ff" size="7">
+高大資管營營隊報名網站</font></legend>
+<style>
+table, th, td 
+{
+  border: 1px solid black;
+}
+</style>
+<p>
+<h1><font face="Arial" color="#00008B">1.基本資料</font></h1>
+<table bgcolor="#FFFACD" style="width:60%">
+  	<tr>
+    	<td>姓名:<input type="text" name="id"></td>
+    	<td>性別:<select name="gender">
+    		<option value="M">男</option>
+        	<option value="F">女</option></select>
+    	</td>
+    	<td>生日:<input type="date" name="birth"></td>
+  	</tr>
+  	<tr>
+    	<td>身分證字號:<input type="text" name="id"></td>
+    	<td colspan="2">電子郵件:<input type="email"><br/></td>
+  	</tr>
+  	<tr>
+  		<td>通訊電話:<input type="number"></td>
+  		<td>手機號碼:<input type="number"></td>
+  		<td>飲食習慣:
+        	葷<input type="radio" value="meat" name="eat">
+        	素<input type="radio" value="veg" name="eat">
+    	</td>
+  	</tr>
+  	<tr>
+  		<td>就讀學校(縣市):
+        	<select name="city">
+        	<option value="001">基隆市</option>
+        	<option value="002">臺北市</option>
+			<option value="003">新北市</option>
+			<option value="004">桃園市</option>
+			<option value="005">新竹市</option>
+			<option value="006">新竹縣</option>
+			<option value="007">苗栗縣</option>
+			<option value="008">臺中市</option>
+			<option value="009">南投縣</option>
+			<option value="010">雲林縣</option>
+			<option value="011">嘉義縣</option>
+			<option value="012">臺南市</option>
+			<option value="013">高雄市</option>
+			<option value="014">屏東縣</option>
+			<option value="015">宜蘭縣</option>
+			<option value="016">花蓮縣</option>
+			<option value="017">臺東縣</option>
+			<option value="018">澎湖縣</option>
+			<option value="019">金門縣</option>
+			<option value="020">連江縣</option></select>
+		</td>
+  		<td>就讀學校:<input type="text" name="school"></td>
+  		<td>就讀年級:<select name="grade">
+    		<option value="01">高一</option>
+    		<option value="02">高二</option>
+        	<option value="03">高三</option></select>
+    	</td>
+  	</tr>
+</table>
+</p>
+<h1><font face="Arial" color="#00008B">2.關於營隊</font></h1>
+<table bgcolor="#FFFACD" style="width:60%">
+  	<tr>
+		<td><center>請選擇感興趣的課程(可複選):
+			大學入門<input type="checkbox" unchecked value="1" name="interests">
+			供應鏈管理<input type="checkbox" unchecked value="2" name="interests">
+			行銷管理<input type="checkbox" unchecked value="3" name="interests">
+			HTML<input type="checkbox" unchecked value="4" name="interests">
+    		python<input type="checkbox" unchecked value="5" name="interests">
+		</td>
+ 	</tr>
+ 	<tr>
+ 		<td>
+ 			想跟我們說的話:<center><textarea cols="100" rows="10"></textarea><br/>
+ 		</td>
+ 	</tr>
+</table>
+</p>
+
+請上傳大頭貼<input type="file" img src="file"><br/>
+<input type="reset" value="再輸一次">
+<input type="submit" value="確定送出"><br/>
+
+</fieldset></center></boby></form>	

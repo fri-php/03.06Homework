@@ -1,0 +1,80 @@
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf8">
+<form action="result.php" method="POST">
+<center>
+<FONT SIZE=7 color=#55087d>
+<B>國立高雄大學第九屆資管營報名網站</B><br><br>
+</FONT>
+<font size="5" color="#68218c">
+<b><marquee scrollamount="10" behavior="alternate">想搶先體驗資管系在學什麼嗎?想在申請入學多一份讓教授感興趣的經歷嗎?那就趕快參加高大資管營吧!名額有限，逾期不候!</marquee></b><br><br><br><br>
+</font>
+<style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url(圖片.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+</style>
+<table width="1000" border="6" style="border-width:8px;border-style:double;border-color:#a981b1;padding:2px;">
+<tr>
+<td><b>請輸入您的姓名</b></td>
+<td><input type="text" name="id">
+	<b>男</b><input type="radio" value="F" name="gender">
+	<b>女</b><input type="radio" value="M" name="gender">
+	<b>嬲</b><input type="radio" value="G" name="gender">
+	<b>嫐</b><input type="radio" value="T" name="gender"><br/></td>
+</tr>
+<tr>
+<td><b>請輸入您的身分證字號</b></td>
+<td><input onkeyup="value=value.replace(/[\W]/g,'') " 
+　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 
+　　 ID="Text1" name="Text1" placeholder="辦理保險用"><br/></td>
+</tr>
+<tr>
+<td><b>填表申請日期</b></td>
+<td><input type="date" name="date"><br/></td>
+</tr>
+<tr>
+<td><b>年級歲數</b></td>
+	<td><select name="years">
+	<option value="d">國三升高一</option>
+	<option value="n">高一升高二</option>
+	<option value="r">高二升高三</option>
+	</select><br/></td>
+</tr>
+<tr>
+<td><b>出生年月日</b></td>
+<td><input type="date" name="birthday"><br></td>
+</tr>
+<tr><td><b>聯絡資料<b/></td>
+	<td><b>市話</b><input onkeyup="value=value.replace(/[^\d]/g,'') " 
+　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 
+　　 ID="Text2" name="Text2" maxlength="10" placeholder="9碼數字">
+	<b>電話</b><input onkeyup="value=value.replace(/[^\d]/g,'') " 
+　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 
+　　 ID="Text2" name="Text2" maxlength="10" placeholder="10碼數字"><b/></td>
+</tr>
+<tr>
+<td><b>錄取與報名通知信箱</b></td>
+<td><input type="email"><br/></td>
+</tr>
+<tr>
+<td><b>緊急聯絡人資料</b></td>
+<td><b>姓名</b><input type="text" name="imer">
+	<b>電話</b><input onkeyup="value=value.replace(/[^\d]/g,'') " 
+　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 
+　　 ID="Text2" name="Text2" maxlength="10" placeholder="10碼數字"></td>
+</tr>
+<tr>
+<td colspan="2"><textarea cols="135" rows="10" placeholder="請跟學長姐簡單介紹自己哦，會當作錄取依據之一。"></textarea><br/></td>
+</tr>
+<tr>
+<td colspan="2"><center><input type="submit" value="確定送出"><br/><b>詳情請上:</b><a href="連結網址">https://im.nuk.edu.tw/</a></center></td>
+</tr>
+</table>
+</center>
+</form>

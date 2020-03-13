@@ -1,0 +1,37 @@
+<html>
+<title>【高雄大學資管營】報名表</title>
+<head><center>【高雄大學資管營】報名表</head>
+請您填入下方資料完成報名。
+<br>
+<label>中文姓名*</label><br>
+請填寫全名<br>
+<input type="text" name="name">
+<label>性別*<br>
+男<input type="radio" name="gender"><br>
+女<input type="radio" name="gender"><br/>
+<label>生日*</label><br>
+<input type="date" name="date">
+<label>身分證字號*</label><br>
+<input type="text" name="">
+<label>聯絡電話*</label><br>
+<input type="text" name="">
+請填寫常用E-mail，將作為營隊寄發報名通知等用途。（若為Yahoo信箱，請注意垃圾信件匣）
+<input type="text" name="">
+<label>聯絡地址*</label><br>
+請填寫目前住址，而非戶籍住址<br>
+<input type="text" name="">
+<label>聯絡E-mail*</label><br>
+<input type="text" name="">
+<label>就讀何所高中/職*</label><br>
+格式：＿年＿班 or ＿科系＿年＿班<br>
+<input type="text" name="">
+<label>緊急連絡人電話*</label><br>
+<input type="text" name="">
+<label><font color="blue">飲食*</label><br>
+葷<input type="radio" name="food">
+素<input type="radio" name="food">
+<label>備註</label><br>
+<input type="text" name="">
+<input type="button" name="提交">
+</html>
+

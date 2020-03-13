@@ -1,0 +1,33 @@
+<head>
+<body bgcolor= powderblue>
+<title>資管螢報名</title>
+<center>
+<font size = 30 color = blue><B>國立高雄大學資訊管理系營報名（Information Management Camp Registration)</B></font>
+<form action="result.html" method="POST" >
+<font color = darkblue size = 5>請輸入您的名字：<input type="text" name="id" placeholder="Mandarin only"></font><br/>
+<font color = darkblue size = 5>請輸入您的學號：<input type="text" name="pwd" placeholder="33_ _"><font><br/>
+<font color = darkblue size = 5>手機號：<input type="text" name="num"><font><br/>
+<font color = darkblue size = 5>Email：<input type="email" name="email"><font><br/>
+食物/Food:</br>
+吃素/Vegeterian<input type="radio" checked value = "V" name="food"><br/>
+不吃素/Non Vegeterian<input type="radio" checked value = "NV" name="food"><br/>
+全部都吃/Eat Everthing<input type="radio" checked value = "EE" name="food"><br/>
+Gender/Sex:</br>
+Male/男生<input type="radio" checked value = "M" name="gender"><br/>
+Women/女生<input type="radio" checked value = "F" name="gender"><br/>
+<textarea cols="80" row="40">
+	
+</textarea>
+<br/>
+<input type="reset">
+<button onclick="myFunction()">submit</button>
+
+<script>
+function myFunction() {
+  alert("成空報名");
+}
+</script>
+</form>
+</center>
+</body>
+</head>

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>高大資管營報名表</title>
+</head>
+<body bgcolor="pink">
+<center>
+<h1>歡迎</h1><br>
+希望大家多多來參加我們所辦的活動<br>
+一年一次的資管營 保證好玩<br>
+<img src="5.png">
+<form name="registration" action="users.aspx" method="post">
+請輸入您的姓名: <input type="text" name="username" size="10" placeholder="" ="only English"><br>
+姓別:
+<input type="radio" name="sex" value="male" checked>男性
+<input type="radio" name="sex" value="female">女性<br>
+居住地:<br>
+<select name="os" size="1">
+<option value="south">南部
+<option value=="north" selected>北部
+<option value=="mid">中部
+<option value=="east">東部
+</select><br><br>
+連絡電話: <input type="text" name="電話" size="10" value="" required="required" ><br>	
+信箱<input id="emailText" type="email" name="Email"  value size="60" placeholder="Email" required><br>
+<input type="submit" name="send" value="確認送出">
+<input type="reset" name="clear" value="重填">
+</center>
+</body>
+</html>

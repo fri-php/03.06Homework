@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>資管營報名網頁</title>
+	<style type="text/css">
+	body{
+		background-image:url(136759.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;  
+	}
+	</style>
+	</head>
+	<body bgcolor="#E0E0E0" style="color:#FCFCFC">
+	<p>
+		<h1>后宮資嬛傳</h1>
+		同學好<br/>
+	我們是高大資管系<br/>
+	我們今年七月要舉辦營隊讓大家認識一下資管系<br/>
+	這個是我們<a href="https://im.nuk.edu.tw/">資管系的網頁</a>
+	看完有沒有更想了解資管系?<br/>
+	如果有的話就來填一下以下的表單吧<br/>
+	<form action="th.php" method="POST">
+	你的大名<input type="text" name="id"><br/>
+	出生年月日<input type="date" name="birth"><br/>
+	你的信箱<input type="email" name="email"><br/>
+	你的電話號碼<input type="text" name="tel"><br/>
+	你的身分證字號<input type="text" name="idn"><br/>
+	<h4>你的生理性別</h4>
+	男:<input type="radio"  value="M" name="gender">
+	女:<input type="radio" value="F" name="gender">
+	其他:<input type="radio" value="D" name="gender"><br/>
+	<h4>血型:</h4>
+	<select name="bloodtype"><br/>
+	<option value="A">A</option><br/>
+	<option value="B">B</option><br/>
+	<option value="O" >O</option><br/>
+	<option value="AB" >AB</option><br/>
+	</select>
+	<br/>
+	<h4>你的飲食習慣:<br/></h4>
+	葷:<input type="radio" value="a" name="eating">
+	素:<input type="radio"  value="v" name="eating"><br/>
+	<h4>有甚麼特殊疾病:<br/></h4>
+	血友病<input type="checkbox"  value="b" name="sick">
+	氣喘<input type="checkbox" value="c" name="sick">
+	蠶豆症<input type="checkbox" value="be" name="sick">
+	高血壓<input type="checkbox" value="h" name="sick">
+	地中海型貧血<input type="checkbox" value="lb" name="sick">
+	其他<input type="checkbox" value="os" name="sick"><input type="text" name="sick">
+	無<input type="checkbox"  value="n" name="sick"><br/>
+	<h4>其他備註:<br/></h4>
+	<TEXTAREA cols="80" rows="10">
+	
+	</TEXTAREA><br/>
+	<input type="reset" value="重新輸入">
+	<input type="submit" value="確定送出"><br/>
+
+</form>
+	
+</body>
+</html>

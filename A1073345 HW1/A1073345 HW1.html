@@ -1,0 +1,106 @@
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>資管營報名表單</title>
+		<style>
+			body {background-color: #F4E1C6;}
+			h1   {color: #40bf80;}
+			h2   {color: #E68D61;}
+			h3   {color: #E76781;}
+		
+		</style>
+	</head>
+	<body>
+
+		<h1 align="center">HI! 很開心您即將成為資管營的一份子٩(˃̶͈̀௰˂̶͈́)و</h1>
+
+		<h2 align="center">想要更了解我們，可以點選下方圖片前往粉絲專業 ↓↓↓
+			&#128512;
+		</h2>
+
+		<a href="https://www.facebook.com/nukimcamp/?__tn__=%2Cd%2CP-R&eid=ARDWHSn5n3st44KyOdXZZvBHNn-y-g7V4A7j6oTO2w-rwZJdTnSZa9uR979QuiHaTSXQP7zg_AMEidMn" target="new"><p Align=center><img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.0-9/53216112_2055084041265967_9093338680742903808_n.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=x8A2JkPhJqMAX-bzlCD&_nc_ht=scontent.fkhh1-1.fna&oh=31bbe94b62c8c86736a3db36dfaf7273&oe=5E925695" border="0" width="200"></p>
+		</a>
+
+		<h3 align="center">請完成下列表單，方便我們之後聯絡唷 ↓↓↓</h3>
+
+		<form action="result.php" method="POST" border=4 align=center width=60% >
+
+		你的名字：<input type="text" name="name" placeholder="很高興認識你(⁎⁍̴̛ᴗ⁍̴̛⁎)"><br/>
+		<p/>
+
+		學校：<input type="text" name="school" placeholder="就讀於..."><br/>
+		<p/>
+
+		<div class="w20">
+		<label class="f3">身份證字號</label>
+		<input class="f10" type="text" />
+		</div>
+		<p/>
+
+		出生年月日：<input type="date"><br/>
+		</p>
+
+		地址：
+		<select name="YourLocation">
+　		<option value="a">台北</option>
+　		<option value="b">新北</option>
+		<option value="c">基隆</option>
+		<option value="d">桃園</option>
+		<option value="e">新竹</option>
+		<option value="f">苗栗</option>
+		<option value="g">台中</option>
+		<option value="h">彰化</option>
+　		<option value="i">南投</option>
+		<option value="j">雲林</option>
+		<option value="k">嘉義</option>
+		<option value="l">台南</option>
+		<option value="m">高雄</option>
+		<option value="n">屏東</option>
+		<option value="o">宜蘭</option>
+		<option value="p">花蓮</option>
+		<option value="q">台東</option>
+		</select>
+		<input type="text" name="address"><br/>
+
+		<p/>
+
+		聯絡電話：<input type="text" name="phonenumber" placeholder="ex.0912345678">
+		<p/>
+
+		電子信箱：<input type="text" name="mail" placeholder="ex.abc@gmail.com">
+		<p/>
+
+
+		葷素：
+		<input type="radio" name="food" value="葷"> 葷
+		<input type="radio" name="food" value="素"> 素<br>
+		<p/>
+
+		營服尺寸：
+		<select name="YourLocation">
+　		<option value="s">S</option>
+　		<option value="m">M</option>
+		<option value="l">L</option>
+		<option value="x">XL</option>
+		</select>
+		<p/>
+
+		緊急連絡人：<input type="text" name="name" placeholder=""><br/>
+		<p/>
+
+		緊急聯絡人電話：<input type="text" name="phonenumber" placeholder="ex.0912345678"><br/>
+		<p/>
+
+		想說的話：</p>
+				<textarea cols="50" rows="5">
+				　
+				</textarea>
+
+		</p>
+
+		<input type="reset" value="重新輸入">
+		<input type="button" value="確定送出" onclick="location.href='success.html'">
+		</form>
+
+	</body>
+</html>

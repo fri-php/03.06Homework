@@ -1,0 +1,125 @@
+<html>
+
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/ht-ml; charset=utf8">
+<title>高大第九屆資管營報名表單</title>	
+<style type="text/css">
+body{
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    text-align:center;
+	font-family: DFKai-sb;
+	
+}	
+H1{
+	text-shadow: 3px 3px black;
+	color: #f21b15;
+	font-weight: bold;  
+	font-size: 50px;
+
+}
+input[type=text] ,input[type=password],input[type=date],textarea{
+  width: 100%;
+  padding: 8px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit]{
+	padding:5px 15px;
+	background:rgba(255, 36, 0,0.5); border:1 none;
+	border-color: rgba(255, 36, 0,0.3);
+	cursor:pointer;
+	-webkit-border-radius: 33px;
+	border-radius: 5px;
+	font-family: DFKai-sb;
+}
+table{
+	background-color: rgba(255,255,255, 0.2);
+	text-shadow: 0px 2px gray;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+</style>
+</head>
+<body>
+<H1>後宮資環傳</H1>
+<H2>—第九屆高大資管營申請表單</H2>
+<form action="result.php" method="POST">
+<table style="border-spacing:10px;"  >
+<tr>
+<td>姓名：</td>
+<td><input type="text" name="name" placeholder="請輸入姓名"></td>
+</tr>
+<tr>
+<td>學校：</td>
+<td><input type="text" name="school" placeholder="學校"></td>
+</tr>
+<tr>
+<td>性別：</td>
+<td><input type="radio" value="M" name="gender">男
+<input type="radio" value="F" name="gender">女</td>
+</tr>
+<tr>
+<td>出生日期：</td>
+<td><input type="date" name="birthday"></td>
+</tr>
+<tr>
+<td>身份證字號：</td>
+<td><input type="password" name="id" placeholder="身分證字號"></td>
+</tr>
+<tr>
+<td>連絡電話：</td>
+<td><input type="text" name="cellphone" placeholder="電話"></td>
+</tr>
+<tr>
+<td>電子郵件：</td>
+<td><input type="text" name="email" placeholder="電子郵件"></td>
+</tr>
+<tr>
+<td>飲食習慣：</td>
+<td>
+<input type="radio" value="nonvege" name="food">葷
+<input type="radio" value="vege" name="food">素
+<input type="radio" value="other" name="food">其他：
+<input type="text" name="food">
+</td>
+</tr>
+<tr>
+<td>血型：</td>
+<td>
+<input type="radio" value="A" name="blooddtype">A
+<input type="radio" value="B" name="blooddtype">B
+<input type="radio" value="AB" name="blooddtype">AB
+<input type="radio" value="O" name="blooddtype">O
+</td>
+</tr>
+<tr>
+<td>健康狀況：</td>
+<td>
+<input type="checkbox" value="氣喘" name="sick">氣喘
+<input type="checkbox" value="心臟病" name="sick">心臟病
+<input type="checkbox" value="高血壓" name="sick">高血壓
+<input type="checkbox" value="糖尿病" name="sick">糖尿病
+<input type="checkbox" value="蠶豆症" name="sick">蠶豆症
+<input type="checkbox" value="過敏" name="sick">過敏<br/>
+<input type="text" name="過敏" placeholder="過敏原">
+<input type="checkbox" value="other" name="sick">其他
+<input width="50%" type="text" name="其他疾病">
+</td>
+</tr>
+<tr>
+<td>其他備註:</td>
+<td><textarea cols="50"	rows="2"></textarea></td>
+</tr>
+<tr><td><input type="submit" value="確定送出">
+</td></tr>
+</table>
+</form>
+</body>
+
+</html>

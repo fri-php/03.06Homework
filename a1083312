@@ -1,0 +1,41 @@
+
+
+
+<form action ="result.php" method="post">
+<body bgcolor="#9999FF">
+<center>
+<title >高大資管營報名網站</title>
+<font size="7">～高大資管營報名網站～</font><br/>
+請輸入您的名字:<input type="text" name="id" ><br/>
+
+請輸入生日<input type="date"><br/>
+請輸入你的電子郵件<input type="email"><br/>
+請輸入你的電話:<input onkeyup="value=value.replace(/[^\d]/g,'') " 
+　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 
+　　 ID="Text2" NAME="Text2"><br/>
+請輸入你的學校:<input type="text"><br/>
+請輸入你的性別<br/>
+女<input type="radio" value="F" name="gender">
+男<input type="radio" value="M" name="gender"><br/>
+請選擇你的年級:
+1<input type="checkbox" checked value="M" name="interests">
+2<input type="checkbox" checked value="T" name="interests">
+3<input type="checkbox" checked value="G" name="interests">
+<br/>
+請選擇你住的縣市<br/>
+<select name="city">
+<option value="Tpe">台北</option>
+<option value="tch">台中</option>
+<option value="khh">高雄</option>
+<option value="tao" selected>桃園</option>>
+</select>
+<br/>
+其他意見</br>
+<textarea cols="80" rows="10"></textarea>
+<br/>
+<input type="reset" value="再輸一次">
+<input type="submit" value="確定送出"><br/>
+</center>
+</body>
+</table>
+</form>	
